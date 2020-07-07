@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_galleries",
+  "info": {
+    "name": "Gallery",
+    "icon": "palette"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

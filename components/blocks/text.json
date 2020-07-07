@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_titles",
+  "info": {
+    "name": "Title",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Title",
+        "Subtitle"
+      ],
+      "default": "Title"
+    }
+  }
+}

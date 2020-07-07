@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pledges",
+  "info": {
+    "name": "Pledge"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Surname": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Amount": {
+      "type": "integer"
+    }
+  }
+}

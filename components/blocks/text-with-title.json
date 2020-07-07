@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_text_block",
+  "info": {
+    "name": "Text block",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext",
+      "private": false,
+      "required": true
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Common",
+        "Small"
+      ],
+      "default": "Common"
+    }
+  }
+}

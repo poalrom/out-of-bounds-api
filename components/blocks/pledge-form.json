@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_pledge_forms",
+  "info": {
+    "name": "Pledge form",
+    "icon": "chart-line"
+  },
+  "options": {},
+  "attributes": {
+    "visible": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

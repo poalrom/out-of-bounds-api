@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_subcomponents_text_slider_items",
+  "info": {
+    "name": "Text slider item",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

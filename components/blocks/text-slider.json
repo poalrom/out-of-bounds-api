@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_text_sliders",
+  "info": {
+    "name": "Text slider",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "text_slider_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.text-slider-item"
+    }
+  }
+}

@@ -10,16 +10,21 @@
   },
   "attributes": {
     "Name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Surname": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
-    "Amount": {
-      "type": "integer"
+    "Pledge": {
+      "type": "string",
+      "regex": "\\d+",
+      "required": true
     }
   }
 }
